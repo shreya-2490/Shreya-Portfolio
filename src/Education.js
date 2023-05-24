@@ -1,8 +1,8 @@
 import React from "react";
 import "./education.css";
 import education from "./assets/education.png";
-import IIT from "./assets/IIT.jpg";
-import CCB from "./assets/CCB.jpg";
+import chitkara from "./assets/chitkara.jpg";
+import tenth from "./assets/10th.jpg";
 import twelve from "./assets/12th.jpg";
 
 function Education() {
@@ -11,13 +11,13 @@ function Education() {
       <div className="education-header">
         <img src={education}></img>
         <h1 style={{ textAlign: "center" }}>
-          My <span style={{ color: "purple" }}>Education</span>
+          My <span style={{ color: "#e68a00" }}>Education</span>
         </h1>
       </div>
 
       <div className="education-content">
         <div>
-          <img src={IIT}></img>
+          <img src={chitkara}></img>
           <div>
             <p
               style={{
@@ -27,10 +27,10 @@ function Education() {
                 marginBottom: "10px",
               }}
             >
-              Indian Institue of Technology Roorkee
+              Chitkara University Institute Of Engineering & Technology
             </p>
-            <p>Bachelor of Technology| C.G.P.A-8 </p>
-            <p>2018-2022</p>
+            <p>Bachelor of Technology| C.G.P.A-9.49 </p>
+            <p>2019-2023</p>
           </div>
         </div>
         <div>
@@ -44,14 +44,14 @@ function Education() {
                 marginBottom: "10px",
               }}
             >
-              AP Narmada Senior Secondary School
+              SD Public School
             </p>
-            <p>12th | MP Board | 85% </p>
-            <p>2017-2018</p>
+            <p>12th | CBSE Board | 82% </p>
+            <p>2018-2019</p>
           </div>
         </div>
         <div>
-          <img src={CCB}></img>
+          <img src={tenth}></img>
           <div>
             <p
               style={{
@@ -61,10 +61,10 @@ function Education() {
                 marginBottom: "10px",
               }}
             >
-              Christ church Boys Senior secondary school
+              St. Thomas School
             </p>
-            <p>10th |C.B.S.E| C.G.P.A-10</p>
-            <p>2015-16</p>
+            <p>10th |ICSE| 79%</p>
+            <p>2016-2017</p>
           </div>
         </div>
       </div>

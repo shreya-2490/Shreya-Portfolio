@@ -9,7 +9,7 @@ function About() {
       <div className="about-header">
         <img src={user}></img>
         <h1 style={{ textAlign: "center" }}>
-          About <span style={{ color: "purple" }}>Me</span>
+          About <span style={{ color: "orange" }}>Me</span>
         </h1>
       </div>
       <div className="about-content">
@@ -17,11 +17,11 @@ function About() {
           <img src={pp}></img>
         </div>
         <div className="about-right">
-          <p style={{ fontWeight: "bold", fontSize: "25px" }}>I'm Harsh</p>
+          <p style={{ fontWeight: "bold", fontSize: "25px" }}>I'm Shreya</p>
           <p
             style={{
               fontSize: "15px",
-              color: "#6600ff",
+              color: "orange",
               marginTop: "-20px",
               fontWeight: "bold",
             }}
@@ -29,7 +29,7 @@ function About() {
             Frontend Web Developer
           </p>
           <p style={{ fontSize: "15px", color: "gray" }}>
-            I am a Frontend web Developer.I completed my BTech from IIT Roorkee.
+            I am a Frontend web Developer.I completed my BTech from Chitkara University.
             I am passionate for coding i love solving programming problems.I
             have a good knowledge of data structures and algorithms as well. In
             Frontend web development I am skilled in ReactJs,Redux,JavaScript.
@@ -38,18 +38,18 @@ function About() {
           </p>
           <div className="about-fields">
             <div>
-              <span style={{ color: "#6600ff" }}>Age</span>: 22
+              <span style={{ color: "orange" }}>Age</span>: 22
             </div>
             <div>
-              <span style={{ color: "#6600ff" }}>Email</span>:
-              harsh.bhagtani1@gmail.com
+              <span style={{ color: "orange" }}>Email</span>:
+              s07hreya@gmail.com
             </div>
             <div>
-              <span style={{ color: "#6600ff" }}>Phone</span>: +91 6264784358
+              <span style={{ color: "orange" }}>Phone</span>: +91 8930400577
             </div>
             <div>
-              <span style={{ color: "#6600ff" }}>Place</span>: Jabalpur,India
-              482001
+              <span style={{ color: "orange" }}>Place</span>: Yamuna Nagar,India
+              135001
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ function Footer() {
     <div className="footerr">
       <div className="footer">
         <div className="left">
-          <h3>Harsh's Portfolio</h3>
+          <h3>Shreya's Portfolio</h3>
           <p>
             Thank you for visiting my portfolio. I hope you liked it.Connect
             with me over socials{" "}
@@ -19,15 +19,15 @@ function Footer() {
           <h3>Contact Info</h3>
           <div>
             <img src={phone}></img>
-            <span>+91 6264784358</span>
+            <span>+91 8930400577</span>
           </div>
           <div>
             <img src={email}></img>
-            <span>harsh.bhagtani1@gmail.com</span>
+            <span>s07hreya@gmail.com</span>
           </div>
           <div>
             <img src={loc}></img>
-            <span>Jabalpur,Madhya Pradesh ,India</span>
+            <span>Yamuna Nagar,India</span>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ function Footer() {
           marginTop: "5px",
         }}
       >
-        Made with by ❤️ Harsh Bhagtani
+        Made with by ❤️ Shreya Garg
       </h5>
     </div>
   );

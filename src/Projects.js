@@ -6,28 +6,14 @@ import Tilt from "react-parallax-tilt";
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      name: "social-web-app",
-      description: "ReactJs, Redux, JavaScript, JWT-Auth, Css",
-      view: "https://harshbhagtani.github.io/Login",
-      code: "https://github.com/harshbhagtani/social-web-app",
-    },
-    {
       name: "Whatapp Clone",
       description: "ReactJs, Redux, JavaScript, FireBase, Css",
-      code: "https://github.com/harshbhagtani/Whatsapp-clone",
       view: "https://whatsapp-clone-b608b.web.app/",
-    },
-    {
-      name: "Ping Pong game",
-      description: "JavaScrip,HTML, Css",
-      view: "https://harshbhagtani.github.io/Ping-pong-game/",
-      code: "https://github.com/harshbhagtani/Ping-pong-game",
     },
     {
       name: "Covid-19 tracker",
       description: "ReactJs, JavaScript, Html, Css,",
       view: "https://covid-19-tracker-59515.web.app/",
-      code: "https://github.com/harshbhagtani/Covid19-Tracker",
     },
   ]);
 
@@ -36,7 +22,7 @@ function Projects() {
       <div className="projects-header">
         <img src={coding}></img>
         <h1 style={{ textAlign: "center", color: "white" }}>
-          Personal <span style={{ color: "yellow" }}>Projects</span>
+          Personal <span style={{ color: "orange" }}>Projects</span>
         </h1>
       </div>
       <div className="projects-content">
@@ -57,10 +43,7 @@ function Projects() {
                 </p>
               </div>
               <a href={data.view} target="_blank">
-                <button style={{ left: "10px" }}>View</button>
-              </a>
-              <a href={data.code} target="_blank">
-                <button style={{ right: "10px" }}>Code {"</>"}</button>
+                <button>View</button>
               </a>
             </Tilt>
           );

@@ -22,7 +22,7 @@
   flex-wrap: wrap;
 }
 .about .about-left > img {
-  height: 350px;
+  /* height: 624px; */
   width: 350px;
   border-radius: 10px;
 }

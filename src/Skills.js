@@ -4,7 +4,7 @@ import coding from "./assets/coding.png";
 
 import Reactt from "./assets/React.png";
 import CSS from "./assets/css.png";
-import cpp from "./assets/c++.png";
+import java from "./assets/java.png";
 import REDUX from "./assets/redux.png";
 import git from "./assets/git.png";
 import js from "./assets/js.png";
@@ -15,7 +15,7 @@ function Skills() {
       <div className="skills-header">
         <img src={coding}></img>
         <h1 style={{ textAlign: "center", color: "white" }}>
-          Skills & <span style={{ color: "yellow" }}>Abilites</span>
+          Skills & <span style={{ color: "orange" }}>Abilites</span>
         </h1>
       </div>
       <div className="skills-content">
@@ -28,8 +28,8 @@ function Skills() {
           <span>Css3</span>
         </div>
         <div>
-          <img src={cpp}></img>
-          <span>C++</span>
+          <img src={java}></img>
+          <span>Java</span>
         </div>
         <div>
           <img src={REDUX}></img>

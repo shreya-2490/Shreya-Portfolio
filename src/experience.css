@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .vertcal-timeline {
-  height: 650px;
+  height: 300px;
   width: 0;
   border: 4px solid black;
   margin-left: 50px;
@@ -39,7 +39,7 @@
 .experince-box {
   width: 60vw;
   min-width: 350px;
-  background-color: rgb(249, 192, 86);
+  background-color: rgb(240, 156, 72);
 
   position: absolute;
   left: 50px;

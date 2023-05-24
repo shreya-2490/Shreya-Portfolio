@@ -1,5 +1,5 @@
 .projects {
-  background-color: #00004d;
+  background-color: #25252e;
   padding: 15px;
 }
 .projects .projects-header img {
@@ -31,13 +31,13 @@
 
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(214, 179, 126, 0.5);
   border-radius: 10px;
   transition: 0.5s;
 }
 .projects-content .tiles h2 {
-  background-color: rgb(235, 235, 22);
-  color: black;
+  background-color:  rgb(245,245,240);
+  color: orange;
   margin: 0;
   border-radius: 5px;
   border-top-left-radius: 0px;
@@ -53,6 +53,6 @@
   position: absolute;
   bottom: 10px;
   cursor: pointer;
-
+  margin-left: 95px;
   width: 100px;
 }

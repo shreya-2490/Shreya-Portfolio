@@ -16,15 +16,16 @@ function Experience() {
           </div>
           <div className="experince-box">
             <h3 style={{ marginLeft: "30px" }}>
-              Frontend developer | Shoprox Technologies{" "}
+              Frontend developer | Oriserve (Unlax Consumer Solutions Pvt Ltd){" "}
               <span style={{ fontSize: "15px", fontWeight: "normal" }}>
-                May-June 2021
+                May 2022-June 2023
               </span>
             </h3>
             <ul>
               <li>
-                It was a 2 month summer internship in which I worked on
-                developing an asset management web app
+                It was a 1 year internship in which I developed different components & 
+                functionalities for different brands such as autosuggestion feature in Vodafone,
+                 Flynas and Air Arabia etc.
               </li>
               <li>
                 Reactjs was used for developing the frontend and Redux was used
@@ -36,28 +37,18 @@ function Experience() {
                 Apis to frontend, developed different reusable components for
                 the web app.
               </li>
+              <li>
+              Developed multilingual chatbot for Ikea (Qatar, UAE, Egypt, Oman) 
+              which increased up-sell and cross-sell instances driving
+              8.75% increase in cart value through contextual triggers.
+              </li>
+              <li>
+              Developed and designed Oriserve website on wordpress 
+              and designed responsive testimonial section on it
+              </li>
             </ul>
           </div>
           {/** */}
-          <div className="box" style={{ top: "400px" }}>
-            <img src={work}></img>
-          </div>
-          <div className="experince-box" style={{ top: "400px" }}>
-            <h3 style={{ marginLeft: "30px" }}>
-              Frontend developer | Electura{" "}
-              <span style={{ fontSize: "15px", fontWeight: "normal" }}>
-                Nov-Dec 2020
-              </span>
-            </h3>
-            <ul>
-              <li>
-                Worked on making their student and teacher portal using
-                javascript library Reactjs.
-              </li>
-              <li>Integrated frontend with backend REST Apis.</li>
-              <li>Integrated third party apis like GoogleApis in frontend.</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import hb from "./assets/HB.webp";
+import hb from "./assets/SG.jpg";
 import ham from "./assets/ham.png";
 
 function Header() {
@@ -44,7 +44,7 @@ function Header() {
             fontSize: "20px",
           }}
         >
-          Harsh
+         Shreya
         </p>
       </div>
 

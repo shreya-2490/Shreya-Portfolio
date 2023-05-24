@@ -4,8 +4,8 @@ import ReactTypingEffect from "react-typing-effect";
 import linkedin from "./assets/linkedin.png";
 import facebook from "./assets/facebook.png";
 import github from "./assets/github.png";
-import ppa from "./assets/ppa.jpeg";
-import lc from "./assets/lc.png";
+import ppa from "./assets/ppa.jpg";
+import gfg from "./assets/gfg.png";
 
 import "./home.css";
 
@@ -34,7 +34,7 @@ const Home = () => {
           <h1
             style={{ fontWeight: "bolder", color: "#00004d", fontSize: "40px" }}
           >
-            I'm Harsh <span style={{ color: "#e68a00" }}>Bhagtani</span>
+            I'm Shreya <span style={{ color: "#e68a00" }}>Garg</span>
           </h1>
           <h2
             style={{ fontWeight: "bold", color: "#00004d", fontSize: "30px" }}
@@ -55,7 +55,7 @@ const Home = () => {
           <div className="social-link">
             {" "}
             <a
-              href="https://www.linkedin.com/in/harsh-bhagtani-064041194/"
+              href="https://www.linkedin.com/in/shreya-garg-5817041b7/"
               target="_blank"
             >
               <img src={linkedin}></img>
@@ -63,11 +63,11 @@ const Home = () => {
             <a href="">
               <img src={facebook}></img>
             </a>
-            <a href=" https://github.com/harshbhagtani" target="_blank">
+            <a href=" https://github.com/Shreya072001" target="_blank">
               <img src={github}></img>
             </a>
-            <a href="https://leetcode.com/user0781C/" target="_blank">
-              <img src={lc}></img>
+            <a href="https://auth.geeksforgeeks.org/user/shreya1509cse19/practice" target="_blank">
+              <img src={gfg}></img>
             </a>
           </div>
         </div>
