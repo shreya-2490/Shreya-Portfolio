@@ -87,7 +87,7 @@
   .header .left {
     justify-content: flex-end;
   }
-  button {
+  .download-btn  {
     position: absolute;
     right: 50px;
   }

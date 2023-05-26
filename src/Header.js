@@ -85,7 +85,7 @@ function Header() {
             </a>
           </div>
         </div>
-        <button onClick={handleDownload}>Download CV</button>
+        <button className="download-btn" onClick={handleDownload}>Download CV</button>
         <a href="#homee">Home</a>
         <a href="#aboutt" onClick={(e) => scrolll(e, "aboutt")}>
           About
