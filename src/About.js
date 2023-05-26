@@ -48,7 +48,7 @@ function About() {
               <span style={{ color: "orange" }}>Phone</span>: +91 8930400577
             </div>
             <div>
-              <span style={{ color: "orange" }}>Place</span>: Yamuna Nagar,India
+              <span style={{ color: "orange" }}>Place</span>: Yamuna Nagar, Haryana, India
               135001
             </div>
           </div>

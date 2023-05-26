@@ -2,8 +2,17 @@ import React, { useState } from "react";
 import "./header.css";
 import hb from "./assets/SG.jpg";
 import ham from "./assets/ham.png";
+import { saveAs } from 'file-saver';
 
 function Header() {
+  const handleDownload = () => {
+    // Assuming your CV file is located at the given URL
+    const cvUrl = 'https://drive.google.com/file/d/1Fv7yvskQ0onCCGlsBGUZE3Exw5lrvqNw/view?pli=1';
+
+    // Trigger the download using FileSaver.js
+    saveAs(cvUrl, 'CV.pdf');
+  };
+
   const [resmenu, setresmenu] = useState("none");
 
   const scrolll = (e, id) => {
@@ -40,7 +49,7 @@ function Header() {
         <p
           style={{
             fontWeight: "bold",
-            fontFamily: "cursive",
+            fontFamily: "inherit",
             fontSize: "20px",
           }}
         >
@@ -76,6 +85,7 @@ function Header() {
             </a>
           </div>
         </div>
+        <button onClick={handleDownload}>Download CV</button>
         <a href="#homee">Home</a>
         <a href="#aboutt" onClick={(e) => scrolll(e, "aboutt")}>
           About

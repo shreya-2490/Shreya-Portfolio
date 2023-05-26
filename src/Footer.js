@@ -27,7 +27,7 @@ function Footer() {
           </div>
           <div>
             <img src={loc}></img>
-            <span>Yamuna Nagar,India</span>
+            <span>Yamuna Nagar, Haryana, India</span>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ function Footer() {
           marginTop: "5px",
         }}
       >
-        Made with by ❤️ Shreya Garg
+        Made by Shreya Garg
       </h5>
     </div>
   );
