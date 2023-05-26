@@ -43,12 +43,13 @@
   position: absolute;
   left: 50px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
 }
 @media screen and (max-width: 800px) {
   .experince-box {
     min-width: 282px;
     left: 20px;
+    padding: 20px;
   }
   .vertcal-timeline {
     height: 562px;
