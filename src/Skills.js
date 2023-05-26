@@ -20,28 +20,28 @@ function Skills() {
       </div>
       <div className="skills-content">
         <div>
-          <img src={Reactt}></img>
-          <span>ReactJs</span>
+          <img src={Reactt}></img><br/>
+          <div>ReactJs</div>
         </div>
         <div>
           <img src={CSS}></img>
-          <span>Css3</span>
+          <div>Css3</div>
         </div>
         <div>
           <img src={java}></img>
-          <span>Java</span>
+          <div>Java</div>
         </div>
         <div>
           <img src={REDUX}></img>
-          <span>Redux</span>
+          <div>Redux</div>
         </div>
         <div>
           <img src={git}></img>
-          <span>Github</span>
+          <div>Github</div>
         </div>
         <div>
           <img src={js}></img>
-          <span>JavaScript</span>
+          <div>JavaScript</div>
         </div>
       </div>
     </div>

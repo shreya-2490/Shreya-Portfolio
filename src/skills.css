@@ -1,6 +1,6 @@
 .skills {
-  background-color: #181824;
-  padding: 15px;
+  background-color: #212123;
+  padding: 15px 15px 50px 15px;
 }
 .skills .skills-header img {
   width: 35px;
@@ -16,26 +16,39 @@
   justify-content: center;
 }
 .skills-content {
-  background-color: #daab64;
+  background-color: #1a1919;
   width: 80%;
   border-radius: 10px;
   margin: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  box-shadow: 4px 4px 8px 0px rgba(254, 254, 254, 0.833);
 }
 .skills-content > div {
-  height: 80px;
+  height: 52px;
   background: rgb(63, 62, 62);
-  width: 40%;
+  width: 27%;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
   display: flex;
-  min-width: 300px;
+  padding: 10px;
   align-items: center;
+  justify-content: space-evenly;
   position: relative;
+  box-shadow: 4px 4px 8px 0px rgba(230, 168, 106, 0.833);
+  font-size: 24px;
+  transition: font-size 0.3s, transform 0.3s, filter 0.3s;
+}
+.skills-content > div:hover {
+  cursor: pointer;
+  font-size: 45px;
+  transform: translateY(-10%);
+  filter: blur(0px);
+  color: rgb(234, 204, 150);
+  box-shadow: 4px 4px 8px 0px rgba(237, 234, 231, 0.833);
 }
 .skills-content > div > span {
   font-size: 20px;
@@ -46,4 +59,14 @@
 
 .skills-content > div > img {
   height: 100%;
+}
+@media screen and (max-width: 800px) {
+  .skills-content > div {
+    height: 30px;
+    width: 27%;
+    font-size: 18px;
+  }
+  .skills-content > div:hover {
+    font-size: 25px;
+  }
 }

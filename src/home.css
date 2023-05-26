@@ -46,3 +46,16 @@
 .home-left .social-link > a {
   margin-left: 20px;
 }
+@media screen and (max-width: 800px) {
+  .home-left {
+    margin-left: 20px;
+  }
+  .home-right{
+    height: 199px;
+    width: 132px;
+    margin-bottom: 63px;
+  }
+  .home-left h1 {
+    font-size: 20px;
+  }
+}
