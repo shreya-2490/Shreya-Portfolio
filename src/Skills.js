@@ -1,10 +1,9 @@
 import React from "react";
 import "./skills.css";
 import coding from "./assets/coding.png";
-
 import Reactt from "./assets/React.png";
 import CSS from "./assets/css.png";
-import java from "./assets/java.png";
+import java from "./assets/Java.jfif";
 import REDUX from "./assets/redux.png";
 import git from "./assets/git.png";
 import js from "./assets/js.png";
