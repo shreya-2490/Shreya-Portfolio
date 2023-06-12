@@ -6,6 +6,21 @@ import Tilt from "react-parallax-tilt";
 function Projects() {
   const [projects, setProjects] = useState([
     {
+      name: "Ecommerce website",
+      description: "ReactJs, JavaScript, Css",
+      view: "https://prepaidfriends.netlify.app/",
+    },
+    {
+      name: "To-do List Dashboard",
+      description: "ReactJs, Redux, JavaScript, Css",
+      view: "https://dashboardtodo.netlify.app/",
+    },
+    {
+      name: "Gallery App",
+      description: "ReactJs, Redux, JavaScript, Css",
+      view: "https://galleryapp-web.netlify.app/",
+    },
+    {
       name: "Whatapp Clone",
       description: "ReactJs, Redux, JavaScript, FireBase, Css",
       view: "https://whatsapp-clone-b608b.web.app/",

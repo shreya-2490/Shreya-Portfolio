@@ -2,7 +2,6 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ReactTypingEffect from "react-typing-effect";
 import linkedin from "./assets/linkedin.png";
-import facebook from "./assets/facebook.png";
 import github from "./assets/github.png";
 import ppa from "./assets/ppa.jpg";
 import gfg from "./assets/gfg.png";
@@ -60,10 +59,7 @@ const Home = () => {
             >
               <img src={linkedin}></img>
             </a>
-            <a href="">
-              <img src={facebook}></img>
-            </a>
-            <a href=" https://github.com/Shreya072001" target="_blank">
+            <a href="https://github.com/shreya-2490" target="_blank">
               <img src={github}></img>
             </a>
             <a href="https://auth.geeksforgeeks.org/user/shreya1509cse19/practice" target="_blank">
