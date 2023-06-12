@@ -45,14 +45,13 @@ const Home = () => {
               eraseSpeed={50}
               speed={50}
               text={[
-                "I am a Frontend Web Developer",
-                "I love solving DSA problems",
-                "I am skilled in Reactjs,Redux,JavaScript",
+                "Experienced Frontend Web Developer",
+                "DSA problem solver ",
+                "Skilled in ReactJS, Redux, and JavaScript",
               ]}
             />
           </h2>
           <div className="social-link">
-            {" "}
             <a
               href="https://www.linkedin.com/in/shreya-garg-5817041b7/"
               target="_blank"

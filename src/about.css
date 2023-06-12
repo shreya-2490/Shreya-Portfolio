@@ -23,18 +23,20 @@
 }
 .about .about-left > img {
   /* height: 624px; */
-  width: 350px;
-  border-radius: 10px;
+  width: 253px;
+  border-radius: 12px;
 }
 .about .about-left {
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
   background: transparent;
-  padding: 2px;
+  margin-bottom: 44px;
+  border-radius: 12px;
 }
 
 .about .about-right {
   min-width: 300px;
-  width: 40%;
+  width: 50%;
+  text-align: justify;
 }
 .about-fields {
   display: flex;
@@ -44,4 +46,9 @@
 .about-fields > div {
   margin-top: 10px;
   width: 48%;
+}
+@media screen and (max-width: 800px) {
+  .about .about-right{
+    text-align: left;
+  }
 }

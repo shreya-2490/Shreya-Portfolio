@@ -33,7 +33,7 @@
 .header .left > a {
   color: rgb(55, 55, 55);
   text-decoration: none;
-
+  font-size: 18px;
   font-family: inherit;
 }
 .header .left > button {
@@ -44,8 +44,12 @@
   cursor: pointer;
 }
 .header .left > a:hover {
-  text-decoration: underline;
-  color: rgb(96, 96, 233);
+  cursor: pointer;
+  font-size: 21px;
+  transform: translateY(-10%);
+  filter: blur(0px);
+  color: rgb(8, 8, 8);
+  box-shadow: 4px 4px 8px 0px rgba(241, 205, 169, 0.833);
 }
 .header .left .hamburg {
   display: none;
@@ -74,8 +78,12 @@
 }
 
 .header .left .hamburg .navmenu > a:hover {
-  text-decoration: underline;
-  color: rgb(96, 96, 233);
+  cursor: pointer;
+  font-size: 15px;
+  transform: translateY(-10%);
+  filter: blur(0px);
+  color: rgb(234, 204, 150);
+  box-shadow: 4px 4px 8px 0px rgba(237, 234, 231, 0.833);
 }
 @media screen and (max-width: 800px) {
   .header .left > a {

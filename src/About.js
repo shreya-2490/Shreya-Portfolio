@@ -29,12 +29,10 @@ function About() {
             Frontend Web Developer
           </p>
           <p style={{ fontSize: "15px", color: "gray" }}>
-            I am a Frontend web Developer.I completed my BTech from Chitkara University.
-            I am passionate for coding i love solving programming problems.I
-            have a good knowledge of data structures and algorithms as well. In
-            Frontend web development I am skilled in ReactJs,Redux,JavaScript.
-            Everyday working on myself to improve my skills as well as gain new
-            skills.
+            I am a passionate and skilled Frontend Web Developer with a BTech degree
+            Chitkara University. My expertise lies in ReactJS, Redux, and JavaScript, and I enjoy solving programming problems using my strong understanding of data structures and algorithms. With a focus on continuous improvement, I strive to enhance my skills and stay up-to-date with the latest technologies.
+            I take pride in delivering high-quality solutions and thrive on new challenges.
+            Let's connect and discuss how I can contribute to your next project.
           </p>
           <div className="about-fields">
             <div>

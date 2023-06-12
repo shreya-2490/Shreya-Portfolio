@@ -29,7 +29,7 @@ function Education() {
             >
               Chitkara University Institute Of Engineering & Technology
             </p>
-            <p>Bachelor of Technology| C.G.P.A-9.49 </p>
+            <p>Bachelor of Technology | C.G.P.A - 9.49 </p>
             <p>2019-2023</p>
           </div>
         </div>
@@ -63,7 +63,7 @@ function Education() {
             >
               St. Thomas School
             </p>
-            <p>10th |ICSE| 79%</p>
+            <p>10th | ICSE | 79%</p>
             <p>2016-2017</p>
           </div>
         </div>

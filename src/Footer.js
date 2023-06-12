@@ -1,8 +1,8 @@
-import React from "react";
-import "./footer.css";
-import loc from "./assets/location.png";
-import phone from "./assets/phone.png";
-import email from "./assets/email.png";
+import React from "react"
+import "./footer.css"
+import loc from "./assets/location.png"
+import phone from "./assets/phone.png"
+import email from "./assets/email.png"
 
 function Footer() {
   return (
@@ -11,8 +11,8 @@ function Footer() {
         <div className="left">
           <h3>Shreya's Portfolio</h3>
           <p>
-            Thank you for visiting my portfolio. I hope you liked it.Connect
-            with me over socials{" "}
+            Thank you for visiting my portfolio. I hope you had a great
+            experience. Let's connect on social media to stay in touch.
           </p>
         </div>
         <div className="right">
@@ -43,7 +43,7 @@ function Footer() {
         Made by Shreya Garg
       </h5>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

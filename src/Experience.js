@@ -23,7 +23,7 @@ function Experience() {
             </h3>
             <ul>
               <li>
-                It was a 1 year internship in which I developed different components & 
+                It was 13 months internship in which I developed different components & 
                 functionalities for different brands such as autosuggestion feature in Vodafone,
                  Flynas and Air Arabia etc.
               </li>
