@@ -7,7 +7,7 @@ import { saveAs } from 'file-saver';
 function Header() {
   const handleDownload = () => {
     // Assuming your CV file is located at the given URL
-    const cvUrl = 'https://drive.google.com/file/d/1dVr2JgAvLwDoZ3nIk2eFGYaDv6Nld-xo/view?usp=sharing';
+    const cvUrl = 'https://drive.google.com/file/d/1_4OgHV9mr7cDzDtRUXWaXNExtVkj9-t7/view?usp=sharing';
 
     // Trigger the download using FileSaver.js
     saveAs(cvUrl, 'CV.pdf');
